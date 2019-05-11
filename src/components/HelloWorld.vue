@@ -1,22 +1,19 @@
 <template>
   <div>
      <h1>{{msg}}</h1>
-     <counter/>
-     <Itemlist/>
+     <ToDo/>
   </div>
 </template>
 
 <script>
-import Counter from "./Counter.vue";
-import Itemlist from "./Itemlist.vue"
+import ToDo from "./ToDo.vue";
 export default {
   name: "HelloWorld",
   props: {
     msg: String
   },
   components:{
-    Counter,
-    Itemlist
+    ToDo
   }
 };
 </script>
